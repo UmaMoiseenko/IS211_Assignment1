@@ -1,4 +1,5 @@
 class ListDivideException(Exception):
+	 """ Exception """
 	pass
 
 def listDivide( number, divide =2 ):
@@ -26,5 +27,5 @@ def testListDivide():
 	except TypeError:
 		raise ListDivideException
 
-
-testListDivide()
+if __name__ == '__main__':
+    testListDivide()
