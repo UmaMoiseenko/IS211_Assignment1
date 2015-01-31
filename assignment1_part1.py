@@ -13,6 +13,7 @@ def listDivide( number, divide =2 ):
 		 raise MyException()
 
 	print result
+	return result
 
 def testListDivide():
 	try:
