@@ -1,5 +1,4 @@
 class ListDivideException(Exception):
-	""" Easy to understand naming conventions work best! """
 	pass
 
 def listDivide( number, divide =2 ):
